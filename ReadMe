@@ -20,6 +20,7 @@ Downloadables:
 
 * Ironic (.rar archive): this directory contains all the ironic Amazon product reviews that were submitted on Step 1 of the corpus collection procedure and confirmed as ironic on Step 2 by both majority voting and label quality control algorithm;
 * Regular (.rar archive): this directory contains all the regular Amazon product reviews that were submitted on Step 1 of the corpus collection procedure and confirmed as regular on Step 2 by both majority voting and label quality control algorithm;
+* sarcasm_lines.txt: text utterances extracted (as highlighted by the MTurk annotators) from ironic reviews that were submitted to support the claim that these reviews were ironic.
 * file_pairing.txt: this files lists the pairs of ironic-regular Amazon reviews as well as unpaired ironic and regular reviews. This files has 817 lines that start with either  PAIRS, IRONIC, REGULAR (all elements in the lines are tab delimited):
 **PAIRS: <file_name1> (ironic) <file_name2> (regular)
 ****such lines list pairs of ironic-regular Amazon reviews pairs submitted for the same product on Step 1;
